@@ -32,6 +32,7 @@ main() {
         "com.valvesoftware.Steam"
         "org.remmina.Remmina"
         "org.qbittorrent.qBittorrent"
+        io.github.aandrew_me.ytdn
     )
 
     install_flatpak_apps
