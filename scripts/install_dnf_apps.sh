@@ -1,4 +1,4 @@
-#!/bin/bash
+  m#!/bin/bash
 
 command_exists() {
     command -v "$1" >/dev/null 2>&1
@@ -17,6 +17,7 @@ main() {
 
     programs=(
         btrfs-assistant
+        deja-dup
     )
 
     install_dnf_programs "${programs[@]}"
