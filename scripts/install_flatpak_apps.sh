@@ -18,8 +18,6 @@ main() {
     fi
 
     apps=(
-        "org.videolan.VLC"
-        "org.gimp.GIMP"
         "io.dbeaver.DBeaverCommunity"
         "com.discordapp.Discord"
         "md.obsidian.Obsidian"
@@ -28,11 +26,10 @@ main() {
         "com.github.johnfactotum.Foliate"
         "com.stremio.Stremio"
         "org.torproject.torbrowser-launcher"
-        "com.obsproject.Studio"
         "com.valvesoftware.Steam"
         "org.remmina.Remmina"
         "org.qbittorrent.qBittorrent"
-        io.github.aandrew_me.ytdn
+        "io.github.aandrew_me.ytdn"
     )
 
     install_flatpak_apps
